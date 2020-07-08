@@ -122,14 +122,6 @@ p{
 	margin-top: 103px;
 	margin-bottom: 56px;
 }
-/*.wrap-form{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-}*/
 .support form{
 	margin: 0 auto;
 	width: 342px;
@@ -148,7 +140,6 @@ p{
 	padding-top:23px;
 	padding-bottom: 23px;
 	padding-left: 25px;
-/*	width: 342px;*/
 	margin-bottom: 15px; 
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
