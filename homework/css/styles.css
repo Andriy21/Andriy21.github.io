@@ -43,6 +43,7 @@ p{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .offer{
 	padding-top: 151px;
@@ -87,10 +88,10 @@ p{
 .learn{
 	padding-top: 108px;
 	padding-bottom: 120px;
-	background-color:#ecf3f8;
+	background-color:#fff;
 }
 .section-title{
-	padding-bottom: 73px;
+	margin-bottom: 73px;
 	
 }
 .possibility{
@@ -99,12 +100,12 @@ p{
 }
 .possibility-title{
 	font-size: 19px;
-	padding-top: 29px;
-	padding-bottom: 10px;
+	margin-top: 29px;
+	margin-bottom: 10px;
 }
 .possibility-text{
 	text-align: center;
-	width: 295px;
+	width: 289px;
 	color: #201b2d;
 	font-size: 15px;
 	font-family: 'Ubuntu', sans-serif;
@@ -117,31 +118,37 @@ p{
 	background-color: #ecf3f8;
 	padding-bottom: 107px;
 }
-.wrap-form{
+.support-title{
+	margin-top: 103px;
+	margin-bottom: 56px;
+}
+/*.wrap-form{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
-}
-.wrap-form form{
+}*/
+.support form{
+	margin: 0 auto;
+	width: 342px;
 	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			-ms-flex-direction: column;
+			-o-flex-direction: column;
+			flex-direction: column;	
 }
-.wrap-form input{
+.support input{
 	padding-top:23px;
 	padding-bottom: 23px;
 	padding-left: 25px;
-	width: 342px;
+/*	width: 342px;*/
 	margin-bottom: 15px; 
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
@@ -158,12 +165,11 @@ p{
 }
 /*-------------footer----------*/
 footer{
-
+	padding: 62px 0;
 	text-align: center;
 	background-color: #164d7a;
 }
 .footer-text{
-	padding: 62px 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
