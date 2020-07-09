@@ -122,6 +122,14 @@ p{
 	margin-top: 103px;
 	margin-bottom: 56px;
 }
+/*.wrap-form{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}*/
 .support form{
 	margin: 0 auto;
 	width: 342px;
@@ -140,6 +148,7 @@ p{
 	padding-top:23px;
 	padding-bottom: 23px;
 	padding-left: 25px;
+/*	width: 342px;*/
 	margin-bottom: 15px; 
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
@@ -163,4 +172,78 @@ footer{
 .footer-text{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+}
+
+/*Responsve*/
+
+
+/*922-1200*/
+@media screen and (max-width: 1200px)  {
+	.container{
+		width: 1140px;
+	}
+	.wrap{
+		flex-direction: column;
+	}
+	.offer{
+		padding-bottom: 50px;
+	}
+	.header-image{
+		margin-top: 10px;
+	}
+	.logo{
+		display: flex;
+		justify-content: center;
+		
+		
+	}
+}
+/*768-922*/
+@media screen and (max-width: 922px)  {
+	.container{
+		width: 360px;
+	}
+	.offer{
+		margin-right: 0;
+    	margin: 0 auto;
+	}
+}
+/*576-768/*/
+@media screen and (max-width: 922px)  {
+	.container{
+		width: 720px;
+	}
+	
+}
+
+
+
+
+/*/*360-576*/
+@media screen and (max-width: 576px)  {
+	.container{
+		width: 90%;
+	}
+	.header-img {
+    	width: 360px;
+    	margin-top: 0;
+}
+	.title{
+		width: 100%;
+	}
+	.intro{
+		width: 100%;
+	}
+	.btn{
+		width: auto;
+		
+	}
+	.support form{
+		width: auto;
+
+	}
+	.form-btn{
+		width: auto;
+		
+	}
 }
