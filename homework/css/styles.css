@@ -216,7 +216,17 @@ footer{
 	.container{
 		width: 720px;
 	}
+	.wrap{
+		flex-direction: column;
+	}
 	
+	.header-image{
+		margin-top: 10px;
+	}
+	.logo{
+		display: flex;
+		justify-content: center;	
+	}
 }
 
 
