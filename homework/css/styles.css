@@ -187,6 +187,9 @@ footer{
 	.offer{
 		margin-right: 0;
 	}
+	header h1, p{
+		width:auto;
+	}
 /*	.wrap{
 		flex-direction: column;
 	}
