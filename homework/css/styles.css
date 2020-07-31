@@ -182,17 +182,29 @@ footer{
 /*922-1200*/
 @media screen and (max-width: 1200px)  {
 	.container{
-		width: 950px;
+		width: 960px;
 	}
 	.offer{
 		margin-right: 0;
 	}
 /*	*/
 }
+@media screen and (max-width: 1024px)  {
+	.container{
+		width: 960px;
+	}
+	.offer{
+		margin-right: 0;
+	}
+	.wrap{
+		flex-direction: column;
+	}
+}
+
 /*768-922*/
 @media screen and (max-width: 922px)  {
 	.container{
-		width: 750px;
+		width: 360px;
 	}
 	.offer{
 		margin-right: 0;
@@ -215,39 +227,9 @@ footer{
 /*576-768/*/
 @media screen and (max-width: 768px)  {
 	.container{
-		width: 550px;
+		width: 720px;
 	}
 	
 }
 
 
-
-
-/*/*360-576*/
-@media screen and (max-width: 576px)  {
-	.container{
-		width: 90%;
-	}
-	.header-img {
-    	width: 360px;
-    	margin-top: 0;
-}
-	.title{
-		width: 100%;
-	}
-	.intro{
-		width: 100%;
-	}
-	.btn{
-		width: auto;
-		
-	}
-	.support form{
-		width: auto;
-
-	}
-	.form-btn{
-		width: auto;
-		
-	}
-}
